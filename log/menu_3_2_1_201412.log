@@ -1,0 +1,119 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Dec 11 10:11:08 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Jan 13 14:42:20 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Jan 16 15:07:06 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Jan 19 15:01:56 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Jan 20 15:11:23 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Jan 26 09:57:37 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Jan 26 10:25:35 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus

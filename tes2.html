@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>C2Bi :: Marketing Fee</title>
+	
+<link href="http://localhost/marketfee/application/third_party/css/style.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/marketfee/application/third_party/css/superfish.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/marketfee/application/third_party/css/table.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://localhost/marketfee/application/third_party/js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://localhost/marketfee/application/third_party/js/hoverIntent.js"></script>
+<script type="text/javascript" src="http://localhost/marketfee/application/third_party/js/superfish.js"></script>
+
+<script type="text/javascript" src="http://localhost/marketfee/application/third_party/js/nav.js"></script>
+<script language="javascript">
+$(document).ready(function() {
+	var $targetfml;
+	$("input[name='isi[]']").focus(function(){
+		$targetfml = jQuery(this);
+	});
+   $(".btnfml").click(function(){
+		$targetfml.val($targetfml.val()+jQuery(this).text());
+		return false;
+   });
+ });
+</script>
+</head><body>
+<form>
+<button class='btnfml'>Btn 1</button>
+<button class='btnfml'>Btn 2</button>
+<button class='btnfml'>Btn 3</button>
+<button class='btnfml'>Btn 4</button>
+<button class='btnfml'>Btn 5</button><br>
+<input type='text' name='isi[]' />
+<input type='text' name='isi[]' />
+<input type='text' name='isi[]' />
+</form>
+</body>
+</html>

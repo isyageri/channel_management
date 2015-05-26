@@ -1,0 +1,291 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Nov 17 17:14:02 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL>   2  drop table cust_ama_nd_201411
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2    3    4  
+Table created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2  insert into cust_ama_nd_201411 select nd from cust_ama_201411 group by nd
+                                              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  drop table cust_ama_nc_201411
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2    3  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> "----------------------------- create table ----------------------------------"
+SQL>   2  drop table cust_ama_temp_201411
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2    3    4    5    6    7    8    9   10   11   12  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL> SQL> "-----------------------------insert data----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   a.indicatif,
+          *
+ERROR at line 9:
+ORA-04052: error occurred when looking up remote object
+ODS_ISISKA.H_COM_A2014_P11_TA@ODSNAS.TELKOM.CO.ID
+ORA-00604: error occurred at recursive SQL level 1
+ORA-01017: invalid username/password; logon denied
+ORA-02063: preceding line from ODSNAS
+
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL> "-----------------------------update tujuan int----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19  
+PL/SQL procedure successfully completed.
+
+SQL> "-----------------------------update tujuan nas----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20  
+PL/SQL procedure successfully completed.
+
+SQL>   2  insert into cust_ama_201411 select * from cust_ama_temp_201411
+            *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  
+Commit complete.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Nov 20 13:45:21 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL>   2  
+Table dropped.
+
+SQL>   2    3    4  
+Table created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2  insert into cust_ama_nd_201411 select nd from cust_ama_201411 group by nd
+                                              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  
+Table dropped.
+
+SQL>   2    3  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> "----------------------------- create table ----------------------------------"
+SQL>   2  
+Table dropped.
+
+SQL>   2    3    4    5    6    7    8    9   10   11   12  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL> SQL> "-----------------------------insert data----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   a.indicatif,
+          *
+ERROR at line 9:
+ORA-04052: error occurred when looking up remote object
+ODS_ISISKA.H_COM_A2014_P11_TA@ODSNAS.TELKOM.CO.ID
+ORA-00604: error occurred at recursive SQL level 1
+ORA-28000: the account is locked
+ORA-02063: preceding line from ODSNAS
+
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL> "-----------------------------update tujuan int----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19  
+PL/SQL procedure successfully completed.
+
+SQL> "-----------------------------update tujuan nas----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20  
+PL/SQL procedure successfully completed.
+
+SQL>   2  insert into cust_ama_201411 select * from cust_ama_temp_201411
+            *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  
+Commit complete.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Dec 8 10:35:08 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL>   2  
+Table dropped.
+
+SQL>   2    3    4  
+Table created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2  insert into cust_ama_nd_201411 select nd from cust_ama_201411 group by nd
+                                              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  
+Table dropped.
+
+SQL>   2    3  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> "----------------------------- create table ----------------------------------"
+SQL>   2  
+Table dropped.
+
+SQL>   2    3    4    5    6    7    8    9   10   11   12  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL> SQL> "-----------------------------insert data----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   a.indicatif,
+          *
+ERROR at line 9:
+ORA-04052: error occurred when looking up remote object
+ODS_ISISKA.H_COM_A2014_P11_TA@ODSNAS.TELKOM.CO.ID
+ORA-00604: error occurred at recursive SQL level 1
+ORA-01017: invalid username/password; logon denied
+ORA-02063: preceding line from ODSNAS
+
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2    3  
+Index created.
+
+SQL>   2  
+Commit complete.
+
+SQL> "-----------------------------update tujuan int----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19  
+PL/SQL procedure successfully completed.
+
+SQL> "-----------------------------update tujuan nas----------------------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20  
+PL/SQL procedure successfully completed.
+
+SQL>   2  insert into cust_ama_201411 select * from cust_ama_temp_201411
+            *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  
+Commit complete.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options

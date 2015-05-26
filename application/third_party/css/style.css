@@ -1,0 +1,120 @@
+body { margin: 0; font-size: 12px;}
+div { padding: 0; }
+img { border: 0; }
+#ct-top { 
+	width: 100%; height: 120px; border: 0; background-color: #F2F2F2; display: block; 
+}
+#ct-mid { 
+	min-height: 380px; height:auto !important; height: 380px; border: 0; background-color: #F2F2F2; /*#eaeae0;  */
+}
+#ct-bot { 
+	width: 100%; height: 100px; border: 0; background-color: #F2F2F2; /**/
+}
+#top-banner {
+	width: 1000px; background-color: #fff; height: 120px; 
+	/*background: url('../image/bg_mfee.png'); */
+}
+#banner-slice-left {
+	width: 710px; height: 120px; display: inline; float: left; /*background-color: #bebebe; */
+}
+#banner-slice-right {
+	width: 290px; height: 120px; display: inline; float: left;
+}
+#slice-right-acc {
+	width: 290px; height: 30px; display: block; /*background-color: #9f9f9f; */
+	background: url('../image/login_frame.png');
+}
+#slice-right-bot {
+	width: 290px; height: 90px; display: block;
+	background: url('../image/logo_telkom.png') top right no-repeat;
+}
+#mid-menu {
+	width: 1000px; height: 40px; display: block; background-color: #fff;
+}
+#mid-content {
+	width: 990px; background-color: white; height: auto; display: block; padding: 5px; min-height: 380px;
+}
+#bot-footer {
+	width: 1000px; background-color: #fff; height: 90px; display: block; /*#9f9f9f*/
+	text-align: center; color: #000; font-family: Tahoma, Arial; font-size: 10px; padding-top: 10px;
+}
+#bot-footer a {
+	color: #000; text-decoration: underline;
+}
+#bot-footer a:hover {
+	color: #000; text-decoration: none;
+}
+
+
+.title {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #43808D;
+	padding-bottom: 10px;
+	text-align:left;
+}
+
+.title span a {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.sub_title {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #6390AD;
+	text-align:left;
+	padding-bottom: 10px;
+}
+
+#navigation ul{
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+#navigation ul li{
+	list-style-type: none;
+	display: inline;
+	float: left;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+#navigation ul li:hover a{
+	border-bottom: 1px solid #AEAEDE;
+}
+
+#filterform {
+	padding-bottom: 10px;
+	width: 500px;
+	text-align:left;
+}
+
+#filterform fieldset{
+	border-style: dotted;
+	border-width: 2px;
+	border-color: #6390AD;
+}
+
+#filterform fieldset legend {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.navbar-brand {
+  color: #000000;
+  font-size: 24px;
+  text-shadow: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+/* Validator CSS */
+
+.form .error-input, .form .error-both .input, .form .error-same .input { background-color:#FFEFEF; border-color:#BB6666; color:#660000; }
+.form .error-div { float:right; margin:7px 10px 0 0; color:#935; font-size:10px; }
+.form .error-div-alternative { display:none; -moz-border-radius:10px; -webkit-border-radius:10px; width:800px; top:0; left:50%; position:absolute; z-index:1000; margin-left:-400px; text-align:center; font-size:16px; color:#934; padding:20px 0 20px 0; background-color:#fee; border:solid 2px #d36; border-top-width:0; }
+.form .error-same, .form .error-both { color:#fff; background-color:#b66; -moz-border-radius:3px; }

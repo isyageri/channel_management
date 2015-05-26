@@ -1,0 +1,68 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Jul 7 11:41:29 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Aug 19 11:01:48 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Aug 19 11:20:10 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Oct 16 09:34:15 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus

@@ -1,0 +1,17 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Sat Feb 8 23:00:01 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}]
+where <logon>  ::= <username>[/<password>][@<connect_identifier>] | /
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus

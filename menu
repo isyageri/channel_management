@@ -1,0 +1,74 @@
+#!/bin/bash
+#/******************************************************************/
+#/* Nama Program        : Ticket ISISKA                            */
+#/* Dibuat pada tgl     :                                          */
+#/*                Oleh :                                          */
+#/* Update terakhir     : 12-12-2013                             */
+#/*                oleh : Purwanto                                 */
+#/* Last Tested    - on :                                          */
+#/*                - by :                                          */
+#/* Status              :                                          */
+#/******************************************************************/
+nama=`who am i |awk '{print $1}'`
+clear
+while :
+do
+clear
+trap '' 2 20    	 
+tput cup 4 7
+tput cup 4 7
+echo "_______________________________________________________________"
+tput cup 5 23
+echo "RUNNING DATA MARKETING FEE DAN C2BI"
+tput cup 6 18
+echo " PROSES  DI RUN SETELAH PROSES BILLING ISISKA SELESAI"
+tput cup 9 30
+tput blink
+echo "TREMS"
+tput sgr 0
+tput cup 10 7
+echo "_______________________________________________________________"
+tput cup 11 18
+echo "1 . PROSES DETAIL TAGIHAN BULANAN"
+tput cup 12 18
+echo "2 . PROSES DETAIL TAGIHAN PENAMBAHAN DATA PELANGGAN BARU"
+tput cup 13 18
+echo "3 . PROSES DETAIL TAGIHAN DATA CAMA BULANAN"
+tput cup 14 18
+echo "4 . PROSES DETAIL TAGIHAN PENAMBAHAN DATA CAMA PELANGGAN BARU"
+tput cup 15 18
+echo "5 . UPDATE FLAG PEMBAYARAN BULANAN"
+tput cup 16 18
+echo "6 . UPDATE RINCIAN TAGIHAN"
+tput cup 17 18
+echo "7 . Lihat log proses"
+tput cup 18 18
+echo "8. Hapus lock untuk mengulang proses"
+if [[ $nama  = "adminsbill"  ]]
+        then
+tput cup 21 18
+echo "x . EXIT..klik tanda silang [X] pojok kanan atas "
+fi
+tput cup 22 7
+echo "_______________________________________________________________"
+tput cup 23 20
+tput smso
+echo -n "    Masukan pilihan :"
+tput rmso
+read pilih
+case $pilih in
+      1)  sh menu_1.sh ;;
+      2)  sh menu_2.sh ;;
+      3)  sh menu_3.sh ;;
+      4)  sh menu_4.sh ;;
+      5)  sh menu_5.sh ;;
+      6)  sh menu_6.sh ;;
+      7)  sh menu_log.sh ;;
+      #x)  exit  ;;
+   8797)  exit ;;
+esac
+
+   echo " "
+   echo -n "Tekan Enter untuk kembali ke menu sebelumnya ... "
+   read Tekan
+   done

@@ -1,0 +1,180 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Wed Nov 12 16:49:58 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> "---------------gat data TREMS_REKAP_REGALL-----------------"
+SQL> SQL> SQL>   2    DROP TABLE TREMS_REKAP_REGALL_
+             *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30  	      DIVRE  from  odspots.TREMS_REKAP_REGALL_@DWHNAS_BDG
+                                   *
+ERROR at line 29:
+ORA-00942: table or view does not exist
+ORA-02063: preceding line from DWHNAS_BDG
+
+
+SQL>   2  create index trems_01_ on TREMS_REKAP_REGALL_ (DIVRE,CPROD)
+                          *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  create index trems_02_ on TREMS_REKAP_REGALL_ (ncli,ndos)
+                          *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL>   2  create index trems_03_ on TREMS_REKAP_REGALL_ (nd)
+                          *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL> SQL> SQL> "--------------------Insert into cust_rinta------------------"
+SQL>   2  ALTER TABLE cust_rinta DROP PARTITION period_
+                                      *
+ERROR at line 1:
+ORA-02149: Specified partition does not exist
+
+
+SQL>   2  alter table cust_rinta add partition period_ VALUES LESS THAN (2014, 12)
+                                     *
+ERROR at line 1:
+ORA-14074: partition bound must collate higher than that of the last partition
+
+
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32   33   34   35   36   37   38   39   40   41   42   43   44   45   46   47   48   49   50   51   52   53   54   55   56   57   58   59   60   61   62   63   64   65   66   67   68   69   70   71   72   73   74   75   76   77   78   79   80   81   82   83   84   85   86   87   88   89   90   91   92   93   94   95   96  	 to_number(nvl(sum(TOTAL),0)) TOTAL from TREMS_REKAP_REGALL_ h,(select distinct nd from ten_nd) b
+                                                 *
+ERROR at line 26:
+ORA-06550: line 26, column 50:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 3, column 2:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 88, column 30:
+PLS-00364: loop index variable 'I' use is invalid
+ORA-06550: line 88, column 32:
+PL/SQL: ORA-00984: column not allowed here
+ORA-06550: line 38, column 12:
+PL/SQL: SQL Statement ignored
+
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20  	   WHERE NCLI=i.NCLI AND NDOS=i.NDOS AND AN_FACT= AND PER_FACT=
+                                                          *
+ERROR at line 11:
+ORA-06550: line 11, column 59:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 9, column 2:
+PL/SQL: SQL Statement ignored
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20  	   WHERE NCLI=i.NCLI  AND AN_FACT= AND PER_FACT=
+                                           *
+ERROR at line 11:
+ORA-06550: line 11, column 44:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 9, column 2:
+PL/SQL: SQL Statement ignored
+
+
+SQL> SQL> ALTER TABLE ten_usage DROP PARTITION period_
+                                     *
+ERROR at line 1:
+ORA-02149: Specified partition does not exist
+
+
+SQL> ALTER TABLE ten_usage DROP PARTITION period_
+                                     *
+ERROR at line 1:
+ORA-02149: Specified partition does not exist
+
+
+SQL>   2  
+Commit complete.
+
+SQL>   2  alter table ten_usage add PARTITION PERIOD_ VALUES ('')
+                                                      *
+ERROR at line 1:
+ORA-14308: partition bound element must be one of: string, datetime or interval
+literal, number, or NULL
+
+
+SQL>   2  
+Commit complete.
+
+SQL> ALTER TABLE ten_payment DROP PARTITION period_
+                                       *
+ERROR at line 1:
+ORA-02149: Specified partition does not exist
+
+
+SQL> ALTER TABLE ten_payment DROP PARTITION period_
+                                       *
+ERROR at line 1:
+ORA-02149: Specified partition does not exist
+
+
+SQL>   2  
+Commit complete.
+
+SQL>   2  alter table ten_payment add  PARTITION PERIOD_ VALUES ('')
+                                                         *
+ERROR at line 1:
+ORA-14308: partition bound element must be one of: string, datetime or interval
+literal, number, or NULL
+
+
+SQL>   2  
+Commit complete.
+
+SQL> "---------------------Update marketing fee ------------------"
+SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32   33   34   35   36   37   38   39   40   41   42   43   44   45   46   47   48   49   50   51   52   53   54   55   56   57   58   59   60   61   62   63   64   65   66   67   68   69   70   71   72   73   74   75   76   77   78   79   80   81   82   83   84   85   86   87   88   89   90   91   92   93   94   95   96   97   98   99  100  101  102  103  104  105  106  107  108  109  110  			    INSERT INTO TEN_USAGE(PERIOD, NCLI, NDOS, ND, CF_ID, CF_NOM) VALUES (, fs.NCLI, fs.NDOS, fs.ND, 79, fs.ABONEMEN);
+                                                                                                 *
+ERROR at line 61:
+ORA-06550: line 61, column 98:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 61, column 29:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 63, column 98:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 63, column 29:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 65, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 65, column 25:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 66, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 66, column 25:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 67, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 67, column 25:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 68, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 68, column 25:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 69, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 69, column 25:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 70, column 94:
+PL/SQL: ORA-00936: missing expression
+ORA-06550: line 70, column 25:
+PL/SQL: SQL S
+
+
+SQL> SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options

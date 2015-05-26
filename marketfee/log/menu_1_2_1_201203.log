@@ -1,0 +1,18 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Sep 11 06:58:54 2012
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.2.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> SQL> "---------------gat data H_EXPEDITION-----------------"
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL>   2  
+JUMLAH_ROW
+----------
+   2749922
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.2.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options

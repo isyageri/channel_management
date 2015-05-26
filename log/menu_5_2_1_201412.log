@@ -1,0 +1,1267 @@
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 9 00:59:32 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 9 00:59:52 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 9 07:37:09 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 9 07:37:14 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 9 11:11:55 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 6062 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Dec 11 10:29:19 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 13577 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Dec 11 15:10:48 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 1152 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Dec 12 08:20:44 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 52 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Dec 12 11:12:37 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 394 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Dec 15 10:12:24 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 464 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 16 07:42:41 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 16 08:18:37 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 16 11:03:39 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Dec 19 10:21:05 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Dec 19 16:41:05 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Dec 23 08:23:24 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Wed Dec 24 10:49:25 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Sat Dec 27 08:31:36 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Sat Dec 27 08:37:58 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Dec 29 10:43:25 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Wed Dec 31 07:54:27 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Wed Dec 31 08:49:33 2014
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Jan 20 10:15:58 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Mon Jan 26 10:54:48 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Mar 24 16:43:45 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 966 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Mar 24 17:09:25 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Tue Mar 31 11:28:44 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 920 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Apr 2 12:40:04 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Apr 2 12:58:40 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Apr 2 14:31:12 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Apr 2 15:23:05 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 0 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Thu Apr 2 15:37:29 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+SQL*Plus: Release 10.2.0.1.0 - Production on Fri Apr 17 13:29:08 2015
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> SQL>   2  
+Table dropped.
+
+SQL>   2  drop table TREMS_PAYMENT_201412
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SQL>   2    3    4    5    6    7    8    9  
+Table created.
+
+SQL>   2  
+Commit complete.
+
+SQL>   2    3  
+Index created.
+
+SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31   32  
+PL/SQL procedure successfully completed.
+
+SQL> SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25  upate_byr = 41856 ssl
+
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options

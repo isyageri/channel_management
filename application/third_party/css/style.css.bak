@@ -1,0 +1,35 @@
+body { margin: 0; }
+div { padding: 0; }
+#ct-top { 
+	width: 100%; height: 140px; border: 0; background-color: white; display: block; 
+}
+#ct-mid { 
+	width: 100%; min-height: 380px; height:auto !important; height: 380px; border: 0; background-color: #eaeae0;  
+}
+#ct-bot { 
+	width: 100%; height: 170px; border: 0; background-color: #efefef;  
+}
+#top-banner {
+	width: 1000px; background-color: #cacaca; height: 140px; 
+}
+#banner-slice-left {
+	width: 710px; background-color: #bebebe; height: 140px; display: inline; float: left;
+}
+#banner-slice-right {
+	width: 290px; background-color: white; height: 140px; display: inline; float: left;
+}
+#slice-right-acc {
+	width: 290px; background-color: #9f9f9f; height: 30px; display: block;
+}
+#slice-right-bot {
+	width: 290px; background-color: #8f8f8f; height: 110px; display: block;
+}
+#mid-menu {
+	width: 1000px; background-color: #7f7f7f; height: 45px; display: block;
+}
+#mid-content {
+	width: 990px; background-color: white; height: auto; display: block; padding: 5px;
+}
+#bot-footer {
+	width: 1000px; background-color: #9f9f9f; height: 170px; display: block;
+}

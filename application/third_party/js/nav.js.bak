@@ -1,0 +1,40 @@
+$(document).ready(function() {
+	$('ul.sf-menu').superfish();
+	$('.del').click(function(){
+	    var answer = confirm('Are you sure to delete : '+jQuery(this).attr('title')+' ?');
+	    return answer; 
+	}); 
+	$('.refresh').click(function(){
+	    var answer = confirm('Are you sure to refresh : '+jQuery(this).attr('title')+' ?');
+	    return answer; 
+	}); 
+	$('.lock').click(function(){
+	    var answer = confirm('Are you sure to lock : '+jQuery(this).attr('title')+' ?');
+	    return answer; 
+	}); 
+	$('.setasfee').click(function(){
+	    var answer = confirm('Are you sure to set this component as fee ?');
+	    return answer; 
+	}); 
+	$('.npksave').click(function(){
+	    var answer = confirm('Are you sure to save this NPK :'+jQuery(this).attr('title')+' ?');
+	    return answer; 
+	}); 
+	
+	var $targetfml;
+	$("textarea[name='str_formula[]']").focus(function(){
+		$targetfml = jQuery(this);
+	});
+	$(".btnfml").click(function(){
+		$targetfml.val($targetfml.val()+jQuery(this).text());
+		return false;
+	});
+	$("input[name^='cell']").focus(function(){
+		$targetfml = jQuery(this);
+	});
+	$(".btntbl").click(function(){
+		$targetfml.val(jQuery(this).text());
+		return false;
+	});
+	$(".datepicker").datepicker({dateFormat: 'dd/mm/yy'});
+});
