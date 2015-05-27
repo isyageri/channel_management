@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css" />
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/font-awesome.css" />
 
+    <!--JqGrid-->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/ui.jqgrid.css" />
+
     <!-- page specific plugin styles -->
 
     <!-- text fonts -->
@@ -211,9 +214,9 @@ function showSubMenu($objprof, $prof_id, $parent) {
         echo "<ul class='submenu'>";
         foreach($sub as $k => $v) {
             if($v->MENU_LINK == "#"){
-                echo "<li class='' id='".$v->FILE_NAME."'><a href='".site_url($v->MENU_LINK)."' class='dropdown-toggle'><i class='menu-icon fa fa-caret-right'></i>".$v->MENU_NAME." <b class='arrow fa fa-angle-down'></b> </a>";
+                echo "<li class='' id='".$v->FILE_NAME."' ><a href='".site_url($v->MENU_LINK)."' class='dropdown-toggle'><i class='menu-icon fa fa-caret-right'></i>".$v->MENU_NAME." <b class='arrow fa fa-angle-down'></b> </a>";
             }else{
-                echo "<li class='setting_nav' id='$v->FILE_NAME'><a href='".site_url($v->MENU_LINK)."'><i class='menu-icon fa fa-caret-right'></i>".$v->MENU_NAME." </a>";
+                echo "<li class='setting_nav' id='".$v->FILE_NAME."' href='".site_url($v->MENU_LINK)."'><a href='".site_url($v->MENU_LINK)."'><i class='menu-icon fa fa-caret-right'></i>".$v->MENU_NAME." </a>";
             }
 
             echo "<b class='arrow'></b>";
@@ -238,4 +241,4 @@ function showSubMenu($objprof, $prof_id, $parent) {
     try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
 </script>
 </div>
-
+    <div class="main-content">

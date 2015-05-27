@@ -17,9 +17,9 @@ class cm extends CI_Controller {
 
 	// Management Mitra
 	public function mm() {
-        $this->load->view('templates/header');
+//        $this->load->view('templates/header');
         $this->load->view('channel_mgm/m_mitra');
-        $this->load->view('templates/footer');
+//        $this->load->view('templates/footer');
 
 
     }

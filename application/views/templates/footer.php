@@ -1,6 +1,6 @@
 </div>
 </div><!-- /.main-content -->
-
+</div> <!-- /.Ajax content -->
 <!-- Footer -->
 <div class="footer">
     <div class="footer-inner">
@@ -45,20 +45,9 @@
 <!--Ajax Menu-->
 <script type="text/javascript">
     $(document).ready(function(){
-        $.ajax({
-            type: 'POST',
-            url: '<?php echo site_url(); ?>/home/nav/user',
-            data: {},
-            success: function(data) {
-                $("#contentSetting").html(data);
-            }
-        });
         $('.setting_nav').click(function(){
-
             var nav = $(this).attr('id');
-            //alert(nav);
-            // $(".setting_nav").attr('class', 'list-group-item setting_nav')
-            // $(this).attr('class', 'setting_nav active')//alert(unit);
+            var ctrl = $(this).attr('href');
             if(!nav){
 //                return false;
             }else{
@@ -68,7 +57,7 @@
                 $(".loading-div").show(); //show loading element
                 $.ajax({
                     type: 'POST',
-                    url: '<?php echo site_url(); ?>/home/nav/'+nav,
+                    url: ctrl,
                     data: {},
                     success: function(data) {
                         $(".main-content").html(data);
@@ -136,6 +125,11 @@
 <script src="<?php echo base_url();?>assets/js/ace/ace.settings-skin.js"></script>
 <script src="<?php echo base_url();?>assets/js/ace/ace.widget-on-reload.js"></script>
 <script src="<?php echo base_url();?>assets/js/ace/ace.searchbox-autocomplete.js"></script>
+
+<!--JqGrid-->
+<script src="<?php echo base_url();?>assets/js/jqGrid/jquery.jqGrid.src.js"></script>
+<script src="<?php echo base_url();?>assets/js/jqGrid/i18n/grid.locale-en.js"></script>
+
 
 <!-- high chart -->
 <script src="<?php echo base_url(); ?>assets/js/Highcharts-4.0.4/js/highcharts.js"></script>

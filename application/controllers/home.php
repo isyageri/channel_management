@@ -88,21 +88,6 @@ class Home extends CI_Controller {
 		
 		redirect("/home");
 	}
-
-    public function nav($nav){
-        $data['title'] = 'Channel Management';
-        //die($nav);
-        switch ($nav) {
-            case 'm_mitra':
-              //  $data['result'] = $this->dbfunction->getUserAproval();
-                $this->load->view('channel_mgm/' . $nav);
-                break;
-            case 'deposit_confirm':
-                $data['result'] = $this->dbfunction->getDepositList();
-                $this->load->view('home/' . $nav, $data);
-                break;
-        }
-    }
 	
 	public function setprofile() {
 		$this->load->model("M_user");
