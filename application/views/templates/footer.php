@@ -48,6 +48,7 @@
         $('.setting_nav').click(function(){
             var nav = $(this).attr('id');
             var ctrl = $(this).attr('href');
+
             if(!nav){
 //                return false;
             }else{
